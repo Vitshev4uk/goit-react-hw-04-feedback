@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.BtnContainer {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.BtnOption {
+    cursor: pointer;
+    background-color:azure;
+    color: green;
+    border: 1px solid green;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    transition: all 250ms ease-in-out;
+}
+.BtnOption:hover, .BtnOption:focus {
+    background-color: green;
+    color: white;
+}
+.BtnOption:nth-child(2) {
+    color: blue;
+    border: 1px solid blue;
+}
+.BtnOption:nth-child(2):hover, .BtnOption:nth-child(2):focus {
+    background-color: blue;
+    color: white;
+}
+.BtnOption:nth-child(3) {
+    color: red;
+    border: 1px solid red;
+}
+.BtnOption:nth-child(3):hover, .BtnOption:nth-child(3):focus {
+    background-color: red;
+    color: white;
+}
